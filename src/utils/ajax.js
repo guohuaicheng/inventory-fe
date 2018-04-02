@@ -20,5 +20,5 @@ export default (options) => {
       token: sessionStorage.getItem("token")
     }
   }
-  axios(options).then(success).catch(error)
+  axios(options).then(success).catch(error);
 }
